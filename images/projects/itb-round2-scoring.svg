@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <circle cx="520" cy="40" r="140" fill="#ffffff" fill-opacity="0.05"/>
+  <circle cx="60" cy="290" r="110" fill="#ffffff" fill-opacity="0.05"/>
+
+  <!-- two 0-100 score gauges: financial health and engagement -->
+  <g fill="none" stroke-width="16" stroke-linecap="round">
+    <path d="M60 170 A70 70 0 0 1 200 170" stroke="#ffffff" stroke-opacity="0.15"/>
+    <path d="M60 170 A70 70 0 0 1 178 119" stroke="#86efac"/>
+  </g>
+  <g fill="none" stroke-width="16" stroke-linecap="round" transform="translate(170 0)">
+    <path d="M60 170 A70 70 0 0 1 200 170" stroke="#ffffff" stroke-opacity="0.15"/>
+    <path d="M60 170 A70 70 0 0 1 104 105" stroke="#7dd3fc"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#ecfeff" text-anchor="middle">
+    <text x="130" y="168" font-size="30" font-weight="700">74</text>
+    <text x="130" y="200" font-size="13">Financial Health</text>
+    <text x="300" y="168" font-size="30" font-weight="700">38</text>
+    <text x="300" y="200" font-size="13">Engagement</text>
+  </g>
+
+  <!-- 3 x 2 segment matrix with one highlighted cell -->
+  <g transform="translate(430 70)">
+    <g fill="#ffffff" fill-opacity="0.14">
+      <rect x="0" y="0" width="58" height="46" rx="8"/>
+      <rect x="66" y="0" width="58" height="46" rx="8"/>
+      <rect x="0" y="54" width="58" height="46" rx="8"/>
+      <rect x="66" y="54" width="58" height="46" rx="8"/>
+      <rect x="0" y="108" width="58" height="46" rx="8"/>
+      <rect x="66" y="108" width="58" height="46" rx="8"/>
+    </g>
+    <rect x="66" y="0" width="58" height="46" rx="8" fill="#86efac"/>
+    <rect x="0" y="0" width="58" height="46" rx="8" fill="#7dd3fc" fill-opacity="0.7"/>
+    <rect x="66" y="108" width="58" height="46" rx="8" fill="#fca5a5" fill-opacity="0.8"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#ecfeff">
+    <text x="430" y="248">Next best action</text>
+    <text x="430" y="266" fill-opacity="0.75">per customer</text>
+  </g>
+</svg>

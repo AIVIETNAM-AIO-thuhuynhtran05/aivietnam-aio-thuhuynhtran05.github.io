@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#9d174d"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <circle cx="520" cy="40" r="140" fill="#ffffff" fill-opacity="0.05"/>
+  <circle cx="60" cy="290" r="110" fill="#ffffff" fill-opacity="0.05"/>
+
+  <!-- two shops with the same sales but different headroom -->
+  <g transform="translate(70 0)">
+    <rect x="0" y="40" width="90" height="210" rx="10" fill="#ffffff" fill-opacity="0.1"/>
+    <rect x="0" y="40" width="90" height="4" fill="#fde68a"/>
+    <rect x="0" y="130" width="90" height="4" fill="#fdba74"/>
+    <rect x="0" y="190" width="90" height="60" rx="10" fill="#c4b5fd"/>
+    <rect x="0" y="150" width="90" height="40" fill="#f9a8d4" fill-opacity="0.85"/>
+  </g>
+  <g transform="translate(200 0)">
+    <rect x="0" y="160" width="90" height="90" rx="10" fill="#ffffff" fill-opacity="0.1"/>
+    <rect x="0" y="160" width="90" height="4" fill="#fde68a"/>
+    <rect x="0" y="182" width="90" height="4" fill="#fdba74"/>
+    <rect x="0" y="190" width="90" height="60" rx="10" fill="#c4b5fd"/>
+  </g>
+  <path d="M60 190 H300" stroke="#ffffff" stroke-opacity="0.6" stroke-dasharray="6 6"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#fdf2f8" text-anchor="middle">
+    <text x="115" y="272">Shop X</text>
+    <text x="245" y="272">Shop Y</text>
+  </g>
+
+  <!-- legend for the four levels -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#fdf2f8">
+    <rect x="360" y="78" width="14" height="14" rx="3" fill="#fde68a"/><text x="384" y="90">Market ceiling</text>
+    <rect x="360" y="118" width="14" height="14" rx="3" fill="#fdba74"/><text x="384" y="130">Attainable potential</text>
+    <rect x="360" y="158" width="14" height="14" rx="3" fill="#f9a8d4"/><text x="384" y="170">Business-as-usual</text>
+    <rect x="360" y="198" width="14" height="14" rx="3" fill="#c4b5fd"/><text x="384" y="210">Current actual</text>
+  </g>
+</svg>

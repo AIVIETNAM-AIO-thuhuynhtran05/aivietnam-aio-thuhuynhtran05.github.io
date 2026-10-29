@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08110e">
+  <meta name="description" content="Anh Thu is a data analyst who finds the story hidden in data and keeps growing with every project.">
+  <title>Anh Thu | Data Analyst</title>
+  <script>
+    (function () {
+      var theme;
+      try { theme = localStorage.getItem('theme'); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+  <link rel="stylesheet" href="/css/style.css?v=20261029b">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a class="logo" href="#home">Anh Thu<span>.</span></a>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="/resume/Huynh_Tran_Anh_Thu_CV.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="hamburger" type="button" aria-label="Open navigation" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">DATA ANALYST · DATA STORYTELLER</p>
+        <h1>Hi, I'm<br><span>Anh Thu.</span></h1>
+        <p class="subtitle">Finding the story hidden in the data.</p>
+        <p class="description">
+          I dig beneath the numbers to find what really drives a business, then tell it as a story people can act on. Every project teaches me something new, and I keep building on it.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore my work</a>
+          <a href="#contact" class="btn btn-secondary">Say hello</a>
+          <a href="/resume/Huynh_Tran_Anh_Thu_CV.pdf" class="btn btn-secondary" download>Resume</a>
+        </div>
+        <div class="hero-socials" aria-label="Social links">
+          <a href="https://github.com/AIVIETNAM-AIO-thuhuynhtran05" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="At a glance">
+        <p class="hero-panel-label">AT A GLANCE</p>
+        <dl class="hero-facts">
+          <div>
+            <dt>Focus</dt>
+            <dd>Retail &amp; e-commerce, sales, supply chain, finance &amp; banking</dd>
+          </div>
+          <div>
+            <dt>Toolkit</dt>
+            <dd>SQL · Python · Power BI · Excel</dd>
+          </div>
+          <div>
+            <dt>Latest role</dt>
+            <dd>Data Analyst Intern, Smartlog – Panasonic (2026)</dd>
+          </div>
+          <div>
+            <dt>Education</dt>
+            <dd>Information Systems, University of Information Technology</dd>
+          </div>
+          <div>
+            <dt>Based in</dt>
+            <dd>Ho Chi Minh City, Vietnam</dd>
+          </div>
+        </dl>
+      </aside>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">ABOUT ME</p>
+        <h2>A Data <span>Storyteller</span></h2>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm <strong>Huynh Tran Anh Thu</strong>, a final-year Information Systems student. Through an internship,
+            data projects, and competitions, I have learned to take data from preparation and analysis all the way to
+            reports that drive business decisions. My goal is to become a <strong>full-stack data professional</strong>.
+          </p>
+          <a class="availability" href="#contact">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for Data Analyst opportunities
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap Section -->
+  <section id="roadmap" class="roadmap">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">ROADMAP</p>
+        <h2>From Intern to <span>Full-Stack Data Professional</span></h2>
+        <p class="section-subtitle">Where I have been, what I am building right now, and where I am heading.</p>
+      </div>
+
+      <ol class="roadmap-track">
+        <li class="roadmap-step is-done">
+          <span class="roadmap-node" aria-hidden="true">01</span>
+          <div class="roadmap-card">
+            <p class="roadmap-phase">Achieved</p>
+            <h3>Data foundation</h3>
+            <p>Information Systems student, IELTS 6.5, and end-to-end projects in SQL, Python, Power BI, and Excel.</p>
+          </div>
+        </li>
+        <li class="roadmap-step is-done">
+          <span class="roadmap-node" aria-hidden="true">02</span>
+          <div class="roadmap-card">
+            <p class="roadmap-phase">Achieved</p>
+            <h3>Competition track record</h3>
+            <p>Runner-up of 200 teams at ITB, Top 15 at RMIT Future Business Analyst, Top 20 of 500 teams at Vin-Datathon.</p>
+          </div>
+        </li>
+        <li class="roadmap-step is-done">
+          <span class="roadmap-node" aria-hidden="true">03</span>
+          <div class="roadmap-card">
+            <p class="roadmap-phase">Achieved · 2026</p>
+            <h3>Industry &amp; research</h3>
+            <p>Data Analyst Intern at Smartlog - Panasonic and co-author of a paper at ISCI 2026.</p>
+          </div>
+        </li>
+        <li class="roadmap-step is-done">
+          <span class="roadmap-node" aria-hidden="true">04</span>
+          <div class="roadmap-card">
+            <p class="roadmap-phase">Achieved · 2026</p>
+            <h3>Analytics across industries</h3>
+            <p>Diagnosed an e-commerce fashion brand's decline and forecast its daily sales (Vin-Datathon, R² 0.807), and modeled credit risk for 307K Home Credit customers (ROC-AUC 0.78).</p>
+          </div>
+        </li>
+        <li class="roadmap-step is-now">
+          <span class="roadmap-here">You are here</span>
+          <span class="roadmap-node" aria-hidden="true">05</span>
+          <div class="roadmap-card">
+            <p class="roadmap-phase">Now</p>
+            <h3>Multi-domain portfolio</h3>
+            <p>Building sales data models with dbt and corporate lending analytics, while studying for CFA Level I to deepen my business and finance knowledge.</p>
+          </div>
+        </li>
+        <li class="roadmap-step is-next">
+          <span class="roadmap-node" aria-hidden="true">06</span>
+          <div class="roadmap-card">
+            <p class="roadmap-phase">Target · 2027</p>
+            <h3>Graduate, join as a Data Analyst</h3>
+            <p>Work on sales performance, customer, and risk analytics, then grow into building pipelines and data models end to end.</p>
+          </div>
+        </li>
+        <li class="roadmap-step is-goal">
+          <span class="roadmap-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/></svg>
+          </span>
+          <div class="roadmap-card">
+            <p class="roadmap-phase">Destination</p>
+            <h3>Full-Stack Data Professional</h3>
+            <p>Lead a data team as a trusted expert who knows the business's data flows inside out and solves its hardest problems with in-depth analysis.</p>
+          </div>
+        </li>
+      </ol>
+
+      <ul class="roadmap-legend" aria-label="Legend">
+        <li class="is-done">Achieved</li>
+        <li class="is-now">In progress</li>
+        <li class="is-next">Target</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">SELECTED WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p class="section-subtitle">Each project starts with a business question. Finished work sits next to work still in progress.</p>
+      </div>
+      <div class="project-groups" id="projectsContainer">
+        <!-- Projects loaded via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Research Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">EXPERIENCE &amp; RESEARCH</p>
+        <h2>Career <span>Journey</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">May 2026 - August 2026</div>
+          <div class="timeline-content">
+            <h3>Data Analyst Intern</h3>
+            <p class="company">Smartlog - Panasonic | Route to Customer</p>
+            <ul class="timeline-points">
+              <li>Monitored Transportation Management System (TMS) operations across 11 logistics vendors handling nearly 100 delivery trips daily.</li>
+              <li>Defined transportation KPIs with cross-functional stakeholders and built automated dashboards that track shipment progress and flag anomalies.</li>
+              <li>Ran monthly data quality checks and analyzed SLA-compliant and non-compliant trips to find bottlenecks and recommend TMS improvements.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <article class="publication-card">
+        <div class="publication-meta">
+          <span class="publication-label">RESEARCH PAPER</span>
+          <span class="publication-year">ISCI 2026</span>
+        </div>
+        <div class="publication-details">
+          <h3>A Scalable AI-Enabled Framework for Near-Real-Time Social Trend Detection from Multi-Source Vietnamese Online Content</h3>
+          <p class="publication-authors">
+            Trong-Hop Do, Kiet G. Quach, Long T. Pham, <strong>Anh Thu T. Huynh</strong>,
+            Nhut Hoang Trang, Qui Ngoc Nguyen, and Thanh-Tuyen T. Do
+          </p>
+          <p class="publication-summary">
+            A scalable pipeline for detecting and analyzing social trends across Vietnamese online sources, combining Kafka, PySpark, semantic embeddings, HDBSCAN clustering, and large language models.
+          </p>
+          <a class="publication-link" href="/publications/social-trend-detection-isci-2026.pdf" target="_blank" rel="noopener noreferrer">
+            Read the paper
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">SKILLS</p>
+        <h2>Technical <span>Expertise</span></h2>
+        <p class="section-subtitle">The tools I use to tell stories with data, and the ones I am still learning.</p>
+      </div>
+      <div class="skills-content" id="skillsContainer">
+        <!-- Skills loaded via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">ACHIEVEMENTS</p>
+        <h2>Awards &amp; <span>Certifications</span></h2>
+      </div>
+      <div class="awards-grid">
+        <article class="award-card">
+          <p class="award-rank">RUNNER-UP</p>
+          <div>
+            <p class="award-category">DATA COMPETITION · UEL · 200 TEAMS</p>
+            <h3>ITB Competition</h3>
+          </div>
+        </article>
+        <article class="award-card">
+          <p class="award-rank">TOP 15</p>
+          <div>
+            <p class="award-category">BUSINESS ANALYST COMPETITION</p>
+            <h3>RMIT Future Business Analyst</h3>
+          </div>
+        </article>
+        <article class="award-card">
+          <p class="award-rank">TOP 20</p>
+          <div>
+            <p class="award-category">DATA COMPETITION · 500 TEAMS</p>
+            <h3>Vin-Datathon</h3>
+          </div>
+        </article>
+      </div>
+      <div class="certificates-grid">
+        <article class="certificate-card">
+          <div class="certificate-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg>
+          </div>
+          <div class="certificate-body">
+            <p class="project-status">In progress</p>
+            <p class="certificate-issuer">CFA Institute</p>
+            <h3>CFA Level I Candidate</h3>
+            <p class="certificate-meta">Currently pursuing the Chartered Financial Analyst (CFA) Level I</p>
+          </div>
+        </article>
+        <article class="certificate-card">
+          <div class="certificate-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 13.8-1.5 7.2 5-3 5 3-1.5-7.2"/></svg>
+          </div>
+          <div class="certificate-body">
+            <p class="certificate-issuer">AI VIET NAM · eDA 2026</p>
+            <h3>Sales Analytics Using Excel</h3>
+            <p class="certificate-meta">Issued Oct 2026 · Credential ID 65357243</p>
+            <a class="certificate-link" href="https://learning.aivietnam.edu.vn/certificate/65357243/" target="_blank" rel="noopener noreferrer">
+              View credential
+            </a>
+          </div>
+        </article>
+        <article class="certificate-card">
+          <div class="certificate-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18"/><path d="M12 3a14 14 0 0 0 0 18"/></svg>
+          </div>
+          <div class="certificate-body">
+            <p class="certificate-issuer">IELTS · Academic</p>
+            <h3>IELTS Overall Band 6.5</h3>
+            <p class="certificate-meta">Tested May 2023 · CEFR B2<br>Listening 6.5 · Reading 6.5 · Writing 6.5 · Speaking 7.0</p>
+            <a class="certificate-link" href="https://drive.google.com/file/d/1EwRJjM2yWZpQIppF4k0sc6z1KBtjgnoL/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              View certificate
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">CONTACT</p>
+        <h2>Let's <span>Connect</span></h2>
+      </div>
+      <p class="contact-intro">Have a project in mind? Let's work together!</p>
+      
+      <div class="contact-content">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" id="name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" id="email" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:huynhtrananhthu.tk1@gmail.com">huynhtrananhthu.tk1@gmail.com</a></p>
+          </div>
+          <div class="contact-item">
+            <h3>Location</h3>
+            <p>Ho Chi Minh City, Vietnam</p>
+          </div>
+          <div class="contact-item">
+            <h3>Social</h3>
+            <div class="social-links">
+              <a href="https://github.com/AIVIETNAM-AIO-thuhuynhtran05" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Anh Thu · Data Analyst</p>
+      <p>Finding the story in the data, one project at a time</p>
+    </div>
+  </footer>
+
+  <script src="/js/script.js?v=20261029c"></script>
+</body>
+</html>

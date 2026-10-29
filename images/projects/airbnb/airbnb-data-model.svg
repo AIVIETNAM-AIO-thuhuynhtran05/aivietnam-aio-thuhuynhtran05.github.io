@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="1200" height="590" fill="#ffffff"/>
+<path d="M465 235.0 H400 V359.0 H330" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<text x="453" y="229.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">N</text>
+<text x="342" y="353.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">1</text>
+<path d="M755 261.0 H800 V99.0 H860" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<text x="767" y="255.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">N</text>
+<text x="848" y="93.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">1</text>
+<path d="M755 287.0 H828 V419.0 H860" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<text x="767" y="281.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">N</text>
+<text x="848" y="413.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">1</text>
+<path d="M40 437.0 H20 V99.0 H40" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<text x="30" y="431.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">N</text>
+<text x="30" y="93.0" font-size="13" font-weight="700" fill="#64748b" text-anchor="middle">1</text>
+<rect x="465" y="150" width="290" height="338" rx="10" fill="#ffffff" stroke="#e11d48" stroke-width="2"/>
+<path d="M465 190 V160 a10 10 0 0 1 10 -10 H745 a10 10 0 0 1 10 10 V190 Z" fill="#e11d48"/>
+<text x="479" y="176" font-size="16" font-weight="700" fill="#ffffff">Fact_Listing</text>
+<text x="741" y="175" font-size="10" font-weight="700" fill="#ffffff" fill-opacity="0.8" text-anchor="end" letter-spacing="1">FACT</text>
+<rect x="477" y="200.0" width="26" height="18" rx="4" fill="#fef3c7"/><text x="490" y="213.0" font-size="10" font-weight="700" fill="#b45309" text-anchor="middle">PK</text>
+<text x="511" y="214.0" font-size="13.5" fill="#0f172a" font-weight="600">listing_id</text>
+<text x="741" y="214.0" font-size="11.5" fill="#64748b" text-anchor="end">BIGINT</text>
+<rect x="467" y="222.0" width="286" height="26" fill="#f8fafc"/>
+<rect x="477" y="226.0" width="26" height="18" rx="4" fill="#e0f2fe"/><text x="490" y="239.0" font-size="10" font-weight="700" fill="#0369a1" text-anchor="middle">FK</text>
+<text x="511" y="240.0" font-size="13.5" fill="#0f172a" font-weight="600">host_id</text>
+<text x="741" y="240.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="477" y="252.0" width="26" height="18" rx="4" fill="#e0f2fe"/><text x="490" y="265.0" font-size="10" font-weight="700" fill="#0369a1" text-anchor="middle">FK</text>
+<text x="511" y="266.0" font-size="13.5" fill="#0f172a" font-weight="600">room_id</text>
+<text x="741" y="266.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="467" y="274.0" width="286" height="26" fill="#f8fafc"/>
+<rect x="477" y="278.0" width="26" height="18" rx="4" fill="#e0f2fe"/><text x="490" y="291.0" font-size="10" font-weight="700" fill="#0369a1" text-anchor="middle">FK</text>
+<text x="511" y="292.0" font-size="13.5" fill="#0f172a" font-weight="600">location_id</text>
+<text x="741" y="292.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<text x="511" y="318.0" font-size="13.5" fill="#0f172a" font-weight="400">price</text>
+<text x="741" y="318.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="467" y="326.0" width="286" height="26" fill="#f8fafc"/>
+<text x="511" y="344.0" font-size="13.5" fill="#0f172a" font-weight="400">availability_365</text>
+<text x="741" y="344.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<text x="511" y="370.0" font-size="13.5" fill="#0f172a" font-weight="400">reviews_per_month</text>
+<text x="741" y="370.0" font-size="11.5" fill="#64748b" text-anchor="end">FLOAT</text>
+<rect x="467" y="378.0" width="286" height="26" fill="#f8fafc"/>
+<text x="511" y="396.0" font-size="13.5" fill="#0f172a" font-weight="400">number_of_reviews</text>
+<text x="741" y="396.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<text x="511" y="422.0" font-size="13.5" fill="#0f172a" font-weight="400">review_scores_rating</text>
+<text x="741" y="422.0" font-size="11.5" fill="#64748b" text-anchor="end">FLOAT</text>
+<rect x="467" y="430.0" width="286" height="26" fill="#f8fafc"/>
+<text x="511" y="448.0" font-size="13.5" fill="#0f172a" font-weight="400">first_review</text>
+<text x="741" y="448.0" font-size="11.5" fill="#64748b" text-anchor="end">DATE</text>
+<text x="511" y="474.0" font-size="13.5" fill="#0f172a" font-weight="400">last_review</text>
+<text x="741" y="474.0" font-size="11.5" fill="#64748b" text-anchor="end">DATE</text>
+<line x1="477" y1="300.0" x2="743" y2="300.0" stroke="#fecdd3" stroke-dasharray="4 3"/>
+<text x="610.0" y="510" font-size="12" fill="#e11d48" font-weight="600" text-anchor="middle">Measures: price, availability, reviews, rating</text>
+<rect x="40" y="300" width="290" height="260" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="2"/>
+<path d="M40 340 V310 a10 10 0 0 1 10 -10 H320 a10 10 0 0 1 10 10 V340 Z" fill="#4f46e5"/>
+<text x="54" y="326" font-size="16" font-weight="700" fill="#ffffff">Dim_Host</text>
+<text x="316" y="325" font-size="10" font-weight="700" fill="#ffffff" fill-opacity="0.8" text-anchor="end" letter-spacing="1">DIMENSION</text>
+<rect x="52" y="350.0" width="26" height="18" rx="4" fill="#fef3c7"/><text x="65" y="363.0" font-size="10" font-weight="700" fill="#b45309" text-anchor="middle">PK</text>
+<text x="86" y="364.0" font-size="13.5" fill="#0f172a" font-weight="600">host_id</text>
+<text x="316" y="364.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="42" y="372.0" width="286" height="26" fill="#f8fafc"/>
+<text x="86" y="390.0" font-size="13.5" fill="#0f172a" font-weight="400">host_name</text>
+<text x="316" y="390.0" font-size="11.5" fill="#64748b" text-anchor="end">NVARCHAR</text>
+<text x="86" y="416.0" font-size="13.5" fill="#0f172a" font-weight="400">host_since</text>
+<text x="316" y="416.0" font-size="11.5" fill="#64748b" text-anchor="end">DATE</text>
+<rect x="42" y="424.0" width="286" height="26" fill="#f8fafc"/>
+<rect x="52" y="428.0" width="26" height="18" rx="4" fill="#e0f2fe"/><text x="65" y="441.0" font-size="10" font-weight="700" fill="#0369a1" text-anchor="middle">FK</text>
+<text x="86" y="442.0" font-size="13.5" fill="#0f172a" font-weight="600">time_key</text>
+<text x="316" y="442.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<text x="86" y="468.0" font-size="13.5" fill="#0f172a" font-weight="400">host_response_rate</text>
+<text x="316" y="468.0" font-size="11.5" fill="#64748b" text-anchor="end">FLOAT</text>
+<rect x="42" y="476.0" width="286" height="26" fill="#f8fafc"/>
+<text x="86" y="494.0" font-size="13.5" fill="#0f172a" font-weight="400">host_acceptance_rate</text>
+<text x="316" y="494.0" font-size="11.5" fill="#64748b" text-anchor="end">FLOAT</text>
+<text x="86" y="520.0" font-size="13.5" fill="#0f172a" font-weight="400">host_is_superhost</text>
+<text x="316" y="520.0" font-size="11.5" fill="#64748b" text-anchor="end">BIT</text>
+<rect x="42" y="528.0" width="286" height="26" fill="#f8fafc"/>
+<text x="86" y="546.0" font-size="13.5" fill="#0f172a" font-weight="400">experience_years</text>
+<text x="316" y="546.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="40" y="40" width="290" height="182" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="2"/>
+<path d="M40 80 V50 a10 10 0 0 1 10 -10 H320 a10 10 0 0 1 10 10 V80 Z" fill="#4f46e5"/>
+<text x="54" y="66" font-size="16" font-weight="700" fill="#ffffff">Dim_Time</text>
+<text x="316" y="65" font-size="10" font-weight="700" fill="#ffffff" fill-opacity="0.8" text-anchor="end" letter-spacing="1">DIMENSION</text>
+<rect x="52" y="90.0" width="26" height="18" rx="4" fill="#fef3c7"/><text x="65" y="103.0" font-size="10" font-weight="700" fill="#b45309" text-anchor="middle">PK</text>
+<text x="86" y="104.0" font-size="13.5" fill="#0f172a" font-weight="600">time_key</text>
+<text x="316" y="104.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="42" y="112.0" width="286" height="26" fill="#f8fafc"/>
+<text x="86" y="130.0" font-size="13.5" fill="#0f172a" font-weight="400">full_date</text>
+<text x="316" y="130.0" font-size="11.5" fill="#64748b" text-anchor="end">DATE</text>
+<text x="86" y="156.0" font-size="13.5" fill="#0f172a" font-weight="400">month</text>
+<text x="316" y="156.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="42" y="164.0" width="286" height="26" fill="#f8fafc"/>
+<text x="86" y="182.0" font-size="13.5" fill="#0f172a" font-weight="400">quarter</text>
+<text x="316" y="182.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<text x="86" y="208.0" font-size="13.5" fill="#0f172a" font-weight="400">year</text>
+<text x="316" y="208.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="860" y="40" width="300" height="234" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="2"/>
+<path d="M860 80 V50 a10 10 0 0 1 10 -10 H1150 a10 10 0 0 1 10 10 V80 Z" fill="#4f46e5"/>
+<text x="874" y="66" font-size="16" font-weight="700" fill="#ffffff">Dim_RoomType</text>
+<text x="1146" y="65" font-size="10" font-weight="700" fill="#ffffff" fill-opacity="0.8" text-anchor="end" letter-spacing="1">DIMENSION</text>
+<rect x="872" y="90.0" width="26" height="18" rx="4" fill="#fef3c7"/><text x="885" y="103.0" font-size="10" font-weight="700" fill="#b45309" text-anchor="middle">PK</text>
+<text x="906" y="104.0" font-size="13.5" fill="#0f172a" font-weight="600">room_id</text>
+<text x="1146" y="104.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="862" y="112.0" width="296" height="26" fill="#f8fafc"/>
+<text x="906" y="130.0" font-size="13.5" fill="#0f172a" font-weight="400">room_type</text>
+<text x="1146" y="130.0" font-size="11.5" fill="#64748b" text-anchor="end">NVARCHAR</text>
+<text x="906" y="156.0" font-size="13.5" fill="#0f172a" font-weight="400">property_type</text>
+<text x="1146" y="156.0" font-size="11.5" fill="#64748b" text-anchor="end">NVARCHAR</text>
+<rect x="862" y="164.0" width="296" height="26" fill="#f8fafc"/>
+<text x="906" y="182.0" font-size="13.5" fill="#0f172a" font-weight="400">accommodates</text>
+<text x="1146" y="182.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<text x="906" y="208.0" font-size="13.5" fill="#0f172a" font-weight="400">bathrooms</text>
+<text x="1146" y="208.0" font-size="11.5" fill="#64748b" text-anchor="end">FLOAT</text>
+<rect x="862" y="216.0" width="296" height="26" fill="#f8fafc"/>
+<text x="906" y="234.0" font-size="13.5" fill="#0f172a" font-weight="400">bedrooms</text>
+<text x="1146" y="234.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<text x="906" y="260.0" font-size="13.5" fill="#0f172a" font-weight="400">beds</text>
+<text x="1146" y="260.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="860" y="360" width="300" height="182" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="2"/>
+<path d="M860 400 V370 a10 10 0 0 1 10 -10 H1150 a10 10 0 0 1 10 10 V400 Z" fill="#4f46e5"/>
+<text x="874" y="386" font-size="16" font-weight="700" fill="#ffffff">Dim_Location</text>
+<text x="1146" y="385" font-size="10" font-weight="700" fill="#ffffff" fill-opacity="0.8" text-anchor="end" letter-spacing="1">DIMENSION</text>
+<rect x="872" y="410.0" width="26" height="18" rx="4" fill="#fef3c7"/><text x="885" y="423.0" font-size="10" font-weight="700" fill="#b45309" text-anchor="middle">PK</text>
+<text x="906" y="424.0" font-size="13.5" fill="#0f172a" font-weight="600">location_id</text>
+<text x="1146" y="424.0" font-size="11.5" fill="#64748b" text-anchor="end">INT</text>
+<rect x="862" y="432.0" width="296" height="26" fill="#f8fafc"/>
+<text x="906" y="450.0" font-size="13.5" fill="#0f172a" font-weight="400">neighbourhood_cleansed</text>
+<text x="1146" y="450.0" font-size="11.5" fill="#64748b" text-anchor="end">NVARCHAR</text>
+<text x="906" y="476.0" font-size="13.5" fill="#0f172a" font-weight="400">neighbourhood_group</text>
+<text x="1146" y="476.0" font-size="11.5" fill="#64748b" text-anchor="end">NVARCHAR</text>
+<rect x="862" y="484.0" width="296" height="26" fill="#f8fafc"/>
+<text x="906" y="502.0" font-size="13.5" fill="#0f172a" font-weight="400">latitude</text>
+<text x="1146" y="502.0" font-size="11.5" fill="#64748b" text-anchor="end">FLOAT</text>
+<text x="906" y="528.0" font-size="13.5" fill="#0f172a" font-weight="400">longitude</text>
+<text x="1146" y="528.0" font-size="11.5" fill="#64748b" text-anchor="end">FLOAT</text>
+</svg>
