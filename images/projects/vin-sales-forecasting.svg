@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14532d"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <rect width="600" height="300" fill="url(#grid)"/>
+
+  <!-- axis -->
+  <path d="M50 250 H560" stroke="#ffffff" stroke-width="3" stroke-opacity="0.6"/>
+
+  <!-- history -->
+  <polyline points="50,200 80,170 110,190 140,140 170,160 200,120 230,150 260,110 290,140 320,100 350,130 380,95"
+    fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- forecast boundary -->
+  <path d="M380 40 V250" stroke="#dcfce7" stroke-width="2" stroke-dasharray="6 8" stroke-opacity="0.8"/>
+
+  <!-- forecast band and line -->
+  <path d="M380 95 L410 105 L440 80 L470 100 L500 70 L530 90 L560 62 L560 128 L530 150 L500 132 L470 160 L440 140 L410 160 L380 95 Z"
+    fill="#ffffff" fill-opacity="0.16"/>
+  <polyline points="380,95 410,132 440,110 470,130 500,101 530,120 560,95"
+    fill="none" stroke="#fde68a" stroke-width="4" stroke-dasharray="10 8" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="380" cy="95" r="6" fill="#ffffff"/>
+</svg>

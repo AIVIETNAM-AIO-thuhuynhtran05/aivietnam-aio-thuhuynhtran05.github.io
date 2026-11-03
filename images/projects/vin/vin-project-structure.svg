@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#86978f"/>
+    </marker>
+    <style>
+      .box { fill: #ffffff; stroke: #d3e4dc; stroke-width: 1.5; }
+      .box-accent { fill: #ffffff; stroke: #0b7f65; stroke-width: 2; }
+      .part { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; fill: #0b7f65; }
+      .title { font-size: 17px; font-weight: 700; fill: #10241f; }
+      .sub { font-size: 13px; fill: #5e6e68; }
+      .label { font-size: 10.5px; font-weight: 700; letter-spacing: 1px; fill: #86978f; }
+      .q { font-size: 13.5px; font-style: italic; fill: #10241f; }
+      .out { font-size: 13.5px; fill: #2f403a; }
+      .flow { fill: none; stroke: #86978f; stroke-width: 1.8; }
+    </style>
+  </defs>
+
+  <!-- connectors: data foundation feeds the three analyses, which all feed the recommendations -->
+  <path class="flow" d="M216 320 H258 V111 H292" marker-end="url(#arrow)"/>
+  <path class="flow" d="M216 320 H292" marker-end="url(#arrow)"/>
+  <path class="flow" d="M216 320 H258 V529 H292" marker-end="url(#arrow)"/>
+  <path class="flow" d="M700 111 H742 V320 H776" marker-end="url(#arrow)"/>
+  <path class="flow" d="M700 320 H776" marker-end="url(#arrow)"/>
+  <path class="flow" d="M700 529 H742 V320 H776" marker-end="url(#arrow)"/>
+
+  <!-- Part 1: data foundation -->
+  <rect class="box" x="16" y="190" width="200" height="260" rx="14"/>
+  <text class="part" x="34" y="220">PART 1</text>
+  <text class="title" x="34" y="245">Data foundation</text>
+  <text class="sub" x="34" y="265">Quality checks &amp; EDA</text>
+  <text class="label" x="34" y="295">QUESTION</text>
+  <text class="q" x="34" y="314">Can we trust the</text>
+  <text class="q" x="34" y="332">numbers?</text>
+  <text class="label" x="34" y="362">BUSINESS OUTPUT</text>
+  <text class="out" x="34" y="381">A clean dataset with</text>
+  <text class="out" x="34" y="399">every data issue and</text>
+  <text class="out" x="34" y="417">how it was handled</text>
+
+  <!-- Part 2: dashboard -->
+  <rect class="box" x="300" y="16" width="400" height="190" rx="14"/>
+  <text class="part" x="320" y="44">PART 2</text>
+  <text class="title" x="320" y="68">Business dashboard <tspan class="sub" font-weight="400">· Power BI</tspan></text>
+  <text class="label" x="320" y="96">QUESTION</text>
+  <text class="q" x="320" y="115">What happened, and why?</text>
+  <text class="label" x="320" y="143">BUSINESS OUTPUT</text>
+  <text class="out" x="320" y="162">Five pages from overview to detail. A KPI tree shows</text>
+  <text class="out" x="320" y="180">whether traffic, conversion, or AOV moved revenue</text>
+
+  <!-- Part 3: segmentation -->
+  <rect class="box" x="300" y="225" width="400" height="190" rx="14"/>
+  <text class="part" x="320" y="253">PART 3</text>
+  <text class="title" x="320" y="277">Customer segmentation <tspan class="sub" font-weight="400">· RFM + K-Means</tspan></text>
+  <text class="label" x="320" y="305">QUESTION</text>
+  <text class="q" x="320" y="324">Who should we act on?</text>
+  <text class="label" x="320" y="352">BUSINESS OUTPUT</text>
+  <text class="out" x="320" y="371">Every customer labeled with a segment, its size,</text>
+  <text class="out" x="320" y="389">and its revenue share, ready for targeted campaigns</text>
+
+  <!-- Part 4: forecasting -->
+  <rect class="box" x="300" y="434" width="400" height="190" rx="14"/>
+  <text class="part" x="320" y="462">PART 4</text>
+  <text class="title" x="320" y="486">Sales forecasting <tspan class="sub" font-weight="400">· machine learning</tspan></text>
+  <text class="label" x="320" y="514">QUESTION</text>
+  <text class="q" x="320" y="533">What is likely to happen next?</text>
+  <text class="label" x="320" y="561">BUSINESS OUTPUT</text>
+  <text class="out" x="320" y="580">A daily Revenue and COGS forecast for Jan 2023 –</text>
+  <text class="out" x="320" y="598">Jul 2024 (R² 0.807 on 2022) to plan stock ahead</text>
+
+  <!-- Part 5: recommendations -->
+  <rect class="box-accent" x="784" y="190" width="200" height="260" rx="14"/>
+  <text class="part" x="802" y="220">PART 5</text>
+  <text class="title" x="802" y="245">Recommendations</text>
+  <text class="sub" x="802" y="265">&amp; KPIs</text>
+  <text class="label" x="802" y="295">QUESTION</text>
+  <text class="q" x="802" y="314">What should we do</text>
+  <text class="q" x="802" y="332">first?</text>
+  <text class="label" x="802" y="362">BUSINESS OUTPUT</text>
+  <text class="out" x="802" y="381">Prioritized actions for</text>
+  <text class="out" x="802" y="399">each segment and area,</text>
+  <text class="out" x="802" y="417">each with a KPI</text>
+</svg>

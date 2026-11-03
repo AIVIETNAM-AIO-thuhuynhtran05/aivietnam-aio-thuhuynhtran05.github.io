@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="Inter, Segoe UI, Arial, sans-serif"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#475569"/></marker></defs><rect width="1200" height="640" fill="#ffffff"/>
+<path d="M312 290.0C385.0 290.0 385.0 129.0 458 129.0" fill="none" stroke="#475569" stroke-width="1.75" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="385" y="205" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">has_bureau</text>
+<path d="M312 290.0C385.0 290.0 385.0 409.0 458 409.0" fill="none" stroke="#475569" stroke-width="1.75" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="385" y="395" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">has_prev</text>
+<path d="M742 409.0C815.0 409.0 815.0 89.0 888 89.0" fill="none" stroke="#475569" stroke-width="1.75" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="810" y="215" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">has_installment</text>
+<path d="M742 409.0C815.0 409.0 815.0 290.0 888 290.0" fill="none" stroke="#475569" stroke-width="1.75" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="800" y="352" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">has_pos</text>
+<path d="M742 409.0C815.0 409.0 815.0 491.0 888 491.0" fill="none" stroke="#475569" stroke-width="1.75" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="800" y="470" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">has_cc</text>
+<rect x="30" y="231" width="280" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="54" cy="258" r="10" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="74" y="264" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">customer</text>
+<text x="46" y="290" font-size="15" font-weight="400" fill="#475569" text-anchor="start">The applicant, and the node</text>
+<text x="46" y="309" font-size="15" font-weight="400" fill="#475569" text-anchor="start">the model scores</text>
+<text x="46" y="335" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">307,511 nodes · 300 features</text>
+<rect x="460" y="70" width="280" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="484" cy="97" r="10" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<text x="504" y="103" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">bureau</text>
+<text x="476" y="129" font-size="15" font-weight="400" fill="#475569" text-anchor="start">Loans at other lenders</text>
+<text x="476" y="148" font-size="15" font-weight="400" fill="#475569" text-anchor="start">(credit bureau)</text>
+<text x="476" y="174" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">1,465,325 nodes · 61 features</text>
+<rect x="460" y="350" width="280" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="484" cy="377" r="10" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<text x="504" y="383" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">prev</text>
+<text x="476" y="409" font-size="15" font-weight="400" fill="#475569" text-anchor="start">Past Home Credit</text>
+<text x="476" y="428" font-size="15" font-weight="400" fill="#475569" text-anchor="start">applications</text>
+<text x="476" y="454" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">1,453,595 nodes · 168 features</text>
+<rect x="890" y="30" width="280" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="914" cy="57" r="10" fill="#eda100" stroke="#ffffff" stroke-width="2"/>
+<text x="934" y="63" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">installment</text>
+<text x="906" y="89" font-size="15" font-weight="400" fill="#475569" text-anchor="start">Repayment records</text>
+<text x="906" y="134" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">11,591,592 nodes · 17 features</text>
+<rect x="890" y="231" width="280" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="914" cy="258" r="10" fill="#e87ba4" stroke="#ffffff" stroke-width="2"/>
+<text x="934" y="264" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">pos</text>
+<text x="906" y="290" font-size="15" font-weight="400" fill="#475569" text-anchor="start">Monthly POS &amp; cash</text>
+<text x="906" y="309" font-size="15" font-weight="400" fill="#475569" text-anchor="start">loan balances</text>
+<text x="906" y="335" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">8,543,375 nodes · 11 features</text>
+<rect x="890" y="432" width="280" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="914" cy="459" r="10" fill="#008300" stroke="#ffffff" stroke-width="2"/>
+<text x="934" y="465" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">cc</text>
+<text x="906" y="491" font-size="15" font-weight="400" fill="#475569" text-anchor="start">Monthly credit card</text>
+<text x="906" y="510" font-size="15" font-weight="400" fill="#475569" text-anchor="start">balances</text>
+<text x="906" y="536" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start">3,227,965 nodes · 36 features</text>
+<line x1="30" y1="572" x2="1170" y2="572" stroke="#cbd5e1"/>
+<text x="30" y="600" font-size="16" font-weight="400" fill="#0f172a" text-anchor="start">Each line is two edge types, has_* and rev_has_*, so messages pass both ways: 5 × 2 = 10 edge types.</text>
+<text x="30" y="626" font-size="16" font-weight="400" fill="#475569" text-anchor="start">26.6M nodes · 52.6M edges in total. bureau_balance is not a node: its rows become features of the bureau node.</text>
+</svg>
